@@ -1,0 +1,17 @@
+ENVI
+description = {
+  D:\Travail\Données\decomp\SENTINEL2A_20180819-105124-182_L2A_T31TDJ_D_V1-8\SENTINEL2A_20180819-105124-182_L2A_T31TDJ_D_V1-8_FRE_extrait_stack.bsq}
+samples = 268
+lines = 159
+bands = 10
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+byte order = 0
+map info = { UTM , 1 , 1 , 449220 , 4796640 , 10 , 10 , 31 , North , WGS-84 }
+coordinate system string = { PROJCS["WGS_1984_UTM_Zone_31N" , GEOGCS["GCS_WGS_1984" , DATUM["D_WGS_1984" , SPHEROID["WGS_1984" , 6378137 , 298.257223563]] , PRIMEM["Greenwich" , 0] , UNIT["Degree" , 0.017453292519943295]] , PROJECTION["Transverse_Mercator"] , PARAMETER["latitude_of_origin" , 0] , PARAMETER["central_meridian" , 3] , PARAMETER["scale_factor" , 0.9996] , PARAMETER["false_easting" , 500000] , PARAMETER["false_northing" , 0] , UNIT["Meter" , 1]] }
+band names = { Band 1 , Band 2 , Band 3 , Band 4 , Band 5 , Band 6 , Band 7 , Band 8 , Band 9 , Band 10 }
+default bands = { 3 , 2 , 1 }
+wavelength = { 0.4924 , 0.5598 , 0.6646 , 0.7041 , 0.7405 , 0.7828 , 0.8328 , 0.8647 , 1.6137 , 2.2024 }
+fwhm = { 0.098 , 0.045 , 0.038 , 0.019 , 0.018 , 0.028 , 0.145 , 0.033 , 0.143 , 0.242 }
