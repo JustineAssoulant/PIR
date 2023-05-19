@@ -1,0 +1,20 @@
+
+	Mise en place d’une méthode de construction d’une base d’apprentissage multi temporelle
+pour la classification supervisée d’espèces végétales
+
+	Le projet sur lequel nous avons travaillé a été encadré par deux chercheurs de l’ONERA (Office National d'Etudes et de Recherches Aérospatiales).
+Notre mission était de proposer une méthode permettant de construire une base d’apprentissage multi temporelle qui serait par la suite utilisée 
+pour la classification supervisée d’espèces végétales.
+
+	Les données que nous avions à notre disposition pour réaliser ce projet étaient des images satellites obtenues par des Sentinel-2. Nous avions 
+également une base d’apprentissage fiable sur l'image de 2020 obtenue par des relevés terrain. Cette dernière était composée de 446 pixels. 
+
+	Notre but était de construire sur les données de 2016 une base d’apprentissage fiable. Pour ce faire nous devions détecter les pixels qui avaient changé 
+entre l’année de référence (2020) et l’année 2016 afin de les supprimer de notre nouvelle base d’apprentissage. Les pixels qui n’avaient pas changé 
+eux étaient gardés dans la base d’apprentissage de 2016 avec le même label qu’en 2020. 
+Ce projet nous a permis d’appréhender de nouveaux packages python (Rasterio et Geopandas), de nouveaux types de données (polygon et multipolygon), 
+et également le logiciel QGIS. Outre les compétences scientifiques, nous avons été confrontés pour la première fois à la réalisation d’un état de l’art 
+et au travail d’un chercheur.
+
+ 
+
